@@ -1,0 +1,36 @@
+
+4).
+
+
+what is the short way to create a function that takes two parameters
+param1 nd param2 and returns the object{param1,param2};?
+
+
+noraml way
+
+function createObject(para1,para2){
+	return{
+		para1:parameter1,
+		para2:parameter2
+	};
+
+}
+
+Es6 short
+
+
+
+const createObject =9param1,param2)=> ({param1,param2});
+
+
+
+()=>{} -this is called an arrow function.it is a shorthand way of writing a funtion. if there is only one parameter in the function, you can omit the parentheses.
+
+
+
+no return- this is called implicit return. it allows yuou to omit the return keyword
+when returning a single expression. if you omit the parentheses around the object,you \
+will get an error.
+
+
+{param1,  param2}- this is called object literal shorthand.It allows you to omit the property value if key matches variables name.
